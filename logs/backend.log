@@ -6,3 +6,51 @@
 6.2.2025, 8:49:45 - INFO - Server listening on port http://127.0.0.1:3030/
 6.2.2025, 14:36:01 - INFO - Server listening on port http://127.0.0.1:3030/
 6.2.2025, 15:26:11 - INFO - Server listening on port http://127.0.0.1:3030/
+9.2.2025, 15:55:15 - INFO - Server listening on port http://127.0.0.1:3030/
+9.2.2025, 16:07:05 - INFO - Server listening on port http://127.0.0.1:3030/
+9.2.2025, 16:07:16 - INFO - Server listening on port http://127.0.0.1:3030/
+9.2.2025, 16:11:36 - INFO - Server listening on port http://127.0.0.1:3030/
+9.2.2025, 16:12:20 - INFO - Server listening on port http://127.0.0.1:3030/
+9.2.2025, 16:12:41 - INFO - Server listening on port http://127.0.0.1:3030/
+9.2.2025, 16:13:54 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:26:29 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:27:28 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:27:34 - INFO - Req was made | /
+10.2.2025, 14:28:18 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:28:21 - INFO - Req was made | /
+10.2.2025, 14:29:18 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:29:36 - INFO - Req was made | /
+10.2.2025, 14:30:30 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:30:38 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:30:42 - INFO - Req was made | /
+10.2.2025, 14:31:31 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:31:33 - INFO - Req was made | /
+10.2.2025, 14:33:06 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:35:12 - ERROR - Failed to get toy | TypeError: toyService.getById is not a function
+10.2.2025, 14:35:45 - INFO - Req was made | /
+10.2.2025, 14:36:41 - ERROR - Failed to get toy | TypeError: toyService.getById is not a function
+10.2.2025, 14:37:31 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:37:33 - ERROR - while finding toy 67a903dd0e30beb80daf141 | BSONError: hex string must be 24 characters
+10.2.2025, 14:37:33 - ERROR - Failed to get toy | BSONError: hex string must be 24 characters
+10.2.2025, 14:37:54 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:37:58 - ERROR - while finding toy 67a903dd0e30beb80daf141 | BSONError: hex string must be 24 characters
+10.2.2025, 14:37:58 - ERROR - Failed to get toy | BSONError: hex string must be 24 characters
+10.2.2025, 14:38:14 - INFO - Req was made | /
+10.2.2025, 14:38:57 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:39:00 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:39:12 - INFO - Req was made | /
+10.2.2025, 14:42:14 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:45:07 - INFO - Req was made | /
+10.2.2025, 14:47:34 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:49:53 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:50:08 - INFO - Req was made | /
+10.2.2025, 14:50:43 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:50:55 - INFO - Req was made | /
+10.2.2025, 14:51:24 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:51:44 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:51:51 - INFO - Req was made | /
+10.2.2025, 14:52:42 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 14:54:21 - INFO - Req was made | /
+10.2.2025, 16:33:53 - INFO - Req was made | /
+10.2.2025, 16:34:04 - INFO - Req was made | /
+10.2.2025, 16:34:17 - INFO - Req was made | /

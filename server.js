@@ -4,7 +4,7 @@ import express from 'express'
 import path from 'path'
 
 import { loggerService } from './services/logger.service.js'
-import { toyService } from './services/toy.service.js'
+
 
 const app = express()
 
@@ -29,76 +29,84 @@ if (process.env.NODE_ENV === 'production') {
   app.use(cors(corsOptions))
 }
 
+import { authRoutes } from './api/auth/auth.routes.js'
+import { userRoutes } from './api/user/user.routes.js'
+import { toyRoutes } from './api/toy/toy.routes.js'
+
+app.use('/api/auth', authRoutes)
+app.use('/api/user', userRoutes)
+app.use('/api/toy', toyRoutes)
+
 // **************** Toys API ****************:
-app.get('/api/toy', (req, res) => {
-  const { txt, inStock, labels, pageIdx, sortBy } = req.query
+// app.get('/api/toy', (req, res) => {
+//   const { txt, inStock, labels, pageIdx, sortBy } = req.query
 
-  const filterBy = {
-    txt: txt || '',
-    inStock: inStock || null,
-    labels: labels || [],
-    pageIdx: +pageIdx || 0,
-    sortBy: sortBy || { type: '', sortDir: 1 },
-  }
+//   const filterBy = {
+//     txt: txt || '',
+//     inStock: inStock || null,
+//     labels: labels || [],
+//     pageIdx: +pageIdx || 0,
+//     sortBy: sortBy || { type: '', sortDir: 1 },
+//   }
 
-  toyService.query(filterBy)
-    .then(toys => res.send(toys))
-    .catch(err => {
-      loggerService.error('Cannot load toys', err)
-      res.status(400).send('Cannot load toys')
-    })
-})
+//   toyService.query(filterBy)
+//     .then(toys => res.send(toys))
+//     .catch(err => {
+//       loggerService.error('Cannot load toys', err)
+//       res.status(400).send('Cannot load toys')
+//     })
+// })
 
-app.get('/api/toy/:toyId', (req, res) => {
-  const { toyId } = req.params
-  toyService.get(toyId)
-    .then(toy => res.send(toy))
-    .catch(err => {
-      loggerService.error('Cannot get toy', err)
-      res.status(400).send(err)
-    })
-})
+// app.get('/api/toy/:toyId', (req, res) => {
+//   const { toyId } = req.params
+//   toyService.get(toyId)
+//     .then(toy => res.send(toy))
+//     .catch(err => {
+//       loggerService.error('Cannot get toy', err)
+//       res.status(400).send(err)
+//     })
+// })
 
-app.post('/api/toy', (req, res) => {
-  const { name, price, labels } = req.body
-  const toy = {
-    name,
-    price: +price,
-    labels,
-  }
-  toyService.save(toy)
-    .then(savedToy => res.send(savedToy))
-    .catch(err => {
-      loggerService.error('Cannot add toy', err)
-      res.status(400).send('Cannot add toy')
-    })
-})
+// app.post('/api/toy', (req, res) => {
+//   const { name, price, labels } = req.body
+//   const toy = {
+//     name,
+//     price: +price,
+//     labels,
+//   }
+//   toyService.save(toy)
+//     .then(savedToy => res.send(savedToy))
+//     .catch(err => {
+//       loggerService.error('Cannot add toy', err)
+//       res.status(400).send('Cannot add toy')
+//     })
+// })
 
-app.put('/api/toy', (req, res) => {
-  const { name, price, _id, labels } = req.body
-  const toy = {
-    _id,
-    name,
-    price: +price,
-    labels,
-  }
-  toyService.save(toy)
-    .then(savedToy => res.send(savedToy))
-    .catch(err => {
-      loggerService.error('Cannot update toy', err)
-      res.status(400).send('Cannot update toy')
-    })
-})
+// app.put('/api/toy', (req, res) => {
+//   const { name, price, _id, labels } = req.body
+//   const toy = {
+//     _id,
+//     name,
+//     price: +price,
+//     labels,
+//   }
+//   toyService.save(toy)
+//     .then(savedToy => res.send(savedToy))
+//     .catch(err => {
+//       loggerService.error('Cannot update toy', err)
+//       res.status(400).send('Cannot update toy')
+//     })
+// })
 
-app.delete('/api/toy/:toyId', (req, res) => {
-  const { toyId } = req.params
-  toyService.remove(toyId)
-    .then(() => res.send())
-    .catch(err => {
-      loggerService.error('Cannot delete toy', err)
-      res.status(400).send('Cannot delete toy, ' + err)
-    })
-})
+// app.delete('/api/toy/:toyId', (req, res) => {
+//   const { toyId } = req.params
+//   toyService.remove(toyId)
+//     .then(() => res.send())
+//     .catch(err => {
+//       loggerService.error('Cannot delete toy', err)
+//       res.status(400).send('Cannot delete toy, ' + err)
+//     })
+// })
 
 
 app.get('/**', (req, res) => {
