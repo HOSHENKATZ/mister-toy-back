@@ -54,3 +54,430 @@
 10.2.2025, 16:33:53 - INFO - Req was made | /
 10.2.2025, 16:34:04 - INFO - Req was made | /
 10.2.2025, 16:34:17 - INFO - Req was made | /
+10.2.2025, 16:35:29 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 16:37:36 - INFO - Req was made | /
+10.2.2025, 16:37:36 - INFO - Req was made | /
+10.2.2025, 16:37:49 - INFO - Req was made | /
+10.2.2025, 16:37:49 - INFO - Req was made | /
+10.2.2025, 16:39:00 - INFO - Req was made | /
+10.2.2025, 16:39:01 - INFO - Req was made | /
+10.2.2025, 17:11:54 - INFO - Req was made | /
+10.2.2025, 17:11:55 - INFO - Req was made | /
+10.2.2025, 17:16:59 - INFO - Req was made | /
+10.2.2025, 17:17:00 - INFO - Req was made | /
+10.2.2025, 17:18:01 - INFO - Req was made | /
+10.2.2025, 17:18:01 - INFO - Req was made | /
+10.2.2025, 17:18:49 - INFO - Req was made | /
+10.2.2025, 17:18:50 - INFO - Req was made | /
+10.2.2025, 17:19:50 - INFO - Req was made | /
+10.2.2025, 17:20:09 - INFO - Req was made | /
+10.2.2025, 17:20:59 - INFO - Req was made | /
+10.2.2025, 17:20:59 - INFO - Req was made | /
+10.2.2025, 17:21:59 - INFO - Req was made | /
+10.2.2025, 17:22:07 - INFO - Req was made | /
+10.2.2025, 17:22:08 - INFO - Req was made | /
+10.2.2025, 17:22:17 - INFO - Req was made | /
+10.2.2025, 17:22:18 - INFO - Req was made | /
+10.2.2025, 17:23:24 - INFO - Req was made | /
+10.2.2025, 17:27:45 - INFO - Req was made | /
+10.2.2025, 17:27:46 - INFO - Req was made | /
+10.2.2025, 17:29:24 - INFO - Req was made | /
+10.2.2025, 17:29:37 - INFO - Req was made | /
+10.2.2025, 17:29:37 - INFO - Req was made | /
+10.2.2025, 17:31:13 - INFO - Req was made | /
+10.2.2025, 17:32:17 - INFO - Req was made | /
+10.2.2025, 17:33:49 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 17:33:55 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 17:34:01 - INFO - Req was made | /
+10.2.2025, 17:34:01 - INFO - Req was made | /
+10.2.2025, 17:34:24 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 17:34:28 - INFO - Req was made | /
+10.2.2025, 17:34:28 - INFO - Req was made | /
+10.2.2025, 17:36:51 - INFO - Req was made | /
+10.2.2025, 17:37:01 - INFO - Req was made | /
+10.2.2025, 17:37:03 - INFO - Req was made | /
+10.2.2025, 17:37:08 - INFO - Req was made | /
+10.2.2025, 17:37:10 - INFO - Req was made | /
+10.2.2025, 17:37:12 - INFO - Req was made | /
+10.2.2025, 17:37:13 - INFO - Req was made | /
+10.2.2025, 17:37:14 - INFO - Req was made | /
+10.2.2025, 17:37:17 - INFO - Req was made | /
+10.2.2025, 17:37:19 - INFO - Req was made | /
+10.2.2025, 17:37:20 - INFO - Req was made | /
+10.2.2025, 17:37:21 - INFO - Req was made | /
+10.2.2025, 17:37:23 - INFO - Req was made | /
+10.2.2025, 17:37:24 - INFO - Req was made | /
+10.2.2025, 17:37:25 - INFO - Req was made | /
+10.2.2025, 17:37:26 - INFO - Req was made | /
+10.2.2025, 17:37:27 - INFO - Req was made | /
+10.2.2025, 17:45:22 - INFO - Req was made | /
+10.2.2025, 17:45:23 - INFO - Req was made | /
+10.2.2025, 17:49:36 - INFO - Req was made | /
+10.2.2025, 17:49:37 - INFO - Req was made | /
+10.2.2025, 17:49:41 - INFO - Req was made | /
+10.2.2025, 17:49:41 - INFO - Req was made | /
+10.2.2025, 17:59:11 - DEBUG - auth.service - login with username: admin 
+10.2.2025, 17:59:11 - ERROR - Failed to Login Error: Invalid username or password
+10.2.2025, 18:00:29 - DEBUG - auth.service - signup with username: admin, fullname: adminadmin
+10.2.2025, 18:00:29 - DEBUG - auth.service - login with username: admin
+10.2.2025, 18:00:29 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$K9m4HW9dznWKzfjcFV//W.VZiapbAJDHqsDxbHp7NqElnwwxH.4wO","fullname":"adminadmin","score":0,"_id":"67aa229dfe31e90d4b70936e"}
+10.2.2025, 18:02:47 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 18:05:49 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 18:05:56 - DEBUG - auth.service - signup with username: admin, fullname: adminadmin
+10.2.2025, 18:05:56 - ERROR - Failed to signup Error: Username taken
+10.2.2025, 18:05:56 - ERROR - cannot insert user | Error: Username taken
+10.2.2025, 18:06:26 - DEBUG - auth.service - signup with username: hoshen, fullname: hoshenk
+10.2.2025, 18:06:26 - DEBUG - auth.route - new account created: {"username":"hoshen","password":"$2b$10$rUoIDgkpQC6PTPQdb8/87.7TeZP5n.QqrFitd3Mfv4O62E3KkHEKa","fullname":"hoshenk","isAdmin":false,"_id":"67aa2402910f62d80074dfef"}
+10.2.2025, 18:06:26 - DEBUG - auth.service - login with username: hoshen
+10.2.2025, 18:06:30 - DEBUG - auth.service - signup with username: hoshen, fullname: hoshenk
+10.2.2025, 18:06:30 - ERROR - cannot insert user | Error: Username taken
+10.2.2025, 18:06:30 - ERROR - Failed to signup Error: Username taken
+10.2.2025, 18:09:16 - DEBUG - auth.service - login with username: hoshen
+10.2.2025, 18:09:16 - INFO - User login:  | {"_id":"67aa2402910f62d80074dfef","username":"hoshen","fullname":"hoshenk","isAdmin":false}
+10.2.2025, 18:09:35 - INFO - Req was made | /
+10.2.2025, 18:09:36 - INFO - Req was made | /
+10.2.2025, 18:25:49 - INFO - Server listening on port http://127.0.0.1:3030/
+10.2.2025, 18:26:13 - INFO - Req was made | /
+10.2.2025, 18:26:14 - INFO - Req was made | /
+10.2.2025, 18:26:28 - INFO - Req was made | /
+10.2.2025, 18:26:28 - INFO - Req was made | /
+10.2.2025, 18:26:41 - INFO - Req was made | /
+10.2.2025, 18:26:41 - INFO - Req was made | /
+10.2.2025, 19:00:42 - DEBUG - auth.service - login with username: hoshen
+10.2.2025, 19:00:42 - INFO - User login:  | {"_id":"67aa2402910f62d80074dfef","username":"hoshen","fullname":"hoshenk","isAdmin":true}
+10.2.2025, 19:00:46 - INFO - Req was made | /
+10.2.2025, 19:04:35 - INFO - Req was made | /
+10.2.2025, 19:04:35 - INFO - Req was made | /
+10.2.2025, 19:07:58 - INFO - Req was made | /
+10.2.2025, 19:07:58 - INFO - Req was made | /
+10.2.2025, 19:08:37 - INFO - Req was made | /
+10.2.2025, 19:08:37 - INFO - Req was made | /
+10.2.2025, 19:17:18 - INFO - Req was made | /
+10.2.2025, 19:17:18 - INFO - Req was made | /
+10.2.2025, 19:21:07 - DEBUG - auth.service - login with username: hoshen
+10.2.2025, 19:21:07 - INFO - User login:  | {"_id":"67aa2402910f62d80074dfef","username":"hoshen","fullname":"hoshenk","isAdmin":true}
+10.2.2025, 19:21:09 - INFO - Req was made | /
+10.2.2025, 19:21:10 - INFO - Req was made | /
+10.2.2025, 19:23:06 - DEBUG - auth.service - login with username: hoshen
+10.2.2025, 19:23:06 - INFO - User login:  | {"_id":"67aa2402910f62d80074dfef","username":"hoshen","fullname":"hoshenk","isAdmin":true}
+11.2.2025, 8:51:43 - INFO - Req was made | /
+11.2.2025, 8:51:43 - INFO - Req was made | /
+11.2.2025, 8:53:01 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:09:16 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:13:14 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:13:18 - ERROR - cannot get reviews | ReferenceError: criteria is not defined
+11.2.2025, 9:13:18 - ERROR - Cannot get reviews | ReferenceError: criteria is not defined
+11.2.2025, 9:13:28 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:13:48 - INFO - Req was made | /
+11.2.2025, 9:17:05 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:17:41 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:22:12 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:22:25 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:23:25 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:23:28 - ERROR - Cannot get reviews | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+11.2.2025, 9:23:41 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:29:22 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:29:27 - ERROR - cannot get reviews | TypeError: Cannot read properties of undefined (reading 'aggregate')
+11.2.2025, 9:29:27 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'aggregate')
+11.2.2025, 9:30:00 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:30:04 - ERROR - cannot get reviews | TypeError: reviews.map is not a function
+11.2.2025, 9:30:04 - ERROR - Cannot get reviews | TypeError: reviews.map is not a function
+11.2.2025, 9:30:23 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:30:36 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:31:21 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:32:14 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:33:45 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:34:36 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:35:55 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:36:24 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:41:28 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 9:41:32 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 11:35:07 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 14:27:18 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 14:27:23 - ERROR - cannot get reviews | TypeError: Cannot read properties of undefined (reading 'aggregate')
+11.2.2025, 14:27:23 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading 'aggregate')
+11.2.2025, 14:28:08 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 14:29:37 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 14:29:46 - ERROR - Cannot get reviews | TypeError: collection.toArray is not a function
+11.2.2025, 14:29:46 - ERROR - cannot get reviews | TypeError: collection.toArray is not a function
+11.2.2025, 14:30:20 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 14:30:23 - ERROR - cannot get reviews | TypeError: collection.toArray is not a function
+11.2.2025, 14:30:23 - ERROR - Cannot get reviews | TypeError: collection.toArray is not a function
+11.2.2025, 14:31:36 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 14:33:34 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 14:34:24 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 14:35:50 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 14:35:53 - ERROR - Cannot get reviews | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+11.2.2025, 14:36:49 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 14:39:41 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 14:47:58 - INFO - Req was made | /
+11.2.2025, 14:48:02 - INFO - Req was made | /
+11.2.2025, 14:49:36 - INFO - Req was made | /
+11.2.2025, 14:50:00 - INFO - Req was made | /
+11.2.2025, 14:50:21 - DEBUG - auth.service - login with username: hoshen
+11.2.2025, 14:50:21 - INFO - User login:  | {"_id":"67aa2402910f62d80074dfef","username":"hoshen","fullname":"hoshenk","isAdmin":true}
+11.2.2025, 14:50:23 - INFO - Req was made | /
+11.2.2025, 14:50:41 - INFO - Req was made | /
+11.2.2025, 14:52:33 - INFO - Req was made | /
+11.2.2025, 14:53:40 - INFO - Req was made | /
+11.2.2025, 14:54:09 - INFO - Req was made | /
+11.2.2025, 14:54:15 - INFO - Req was made | /
+11.2.2025, 14:56:53 - INFO - Req was made | /
+11.2.2025, 14:56:55 - INFO - Req was made | /
+11.2.2025, 14:56:55 - INFO - Req was made | /
+11.2.2025, 14:56:57 - INFO - Req was made | /
+11.2.2025, 14:57:06 - INFO - Req was made | /
+11.2.2025, 14:57:06 - INFO - Req was made | /
+11.2.2025, 14:59:06 - INFO - Req was made | /
+11.2.2025, 14:59:51 - INFO - Req was made | /
+11.2.2025, 15:00:11 - INFO - Req was made | /
+11.2.2025, 15:01:08 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:09:03 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:09:32 - INFO - Req was made | /
+11.2.2025, 15:10:07 - INFO - Req was made | /
+11.2.2025, 15:12:00 - INFO - Req was made | /
+11.2.2025, 15:12:03 - INFO - Req was made | /
+11.2.2025, 15:13:10 - INFO - Req was made | /
+11.2.2025, 15:13:10 - INFO - Req was made | /
+11.2.2025, 15:13:13 - INFO - Req was made | /
+11.2.2025, 15:13:15 - INFO - Req was made | /
+11.2.2025, 15:13:19 - INFO - Req was made | /
+11.2.2025, 15:13:20 - INFO - Req was made | /
+11.2.2025, 15:13:26 - INFO - Req was made | /
+11.2.2025, 15:14:05 - INFO - Req was made | /
+11.2.2025, 15:14:08 - INFO - Req was made | /
+11.2.2025, 15:14:11 - INFO - Req was made | /
+11.2.2025, 15:14:11 - INFO - Req was made | /
+11.2.2025, 15:14:13 - INFO - Req was made | /
+11.2.2025, 15:14:15 - INFO - Req was made | /
+11.2.2025, 15:14:24 - INFO - Req was made | /
+11.2.2025, 15:14:25 - INFO - Req was made | /
+11.2.2025, 15:14:25 - INFO - Req was made | /
+11.2.2025, 15:14:26 - INFO - Req was made | /
+11.2.2025, 15:14:27 - INFO - Req was made | /
+11.2.2025, 15:14:27 - INFO - Req was made | /
+11.2.2025, 15:14:30 - INFO - Req was made | /
+11.2.2025, 15:14:35 - INFO - Req was made | /
+11.2.2025, 15:14:36 - INFO - Req was made | /
+11.2.2025, 15:14:37 - INFO - Req was made | /
+11.2.2025, 15:14:45 - INFO - Req was made | /
+11.2.2025, 15:14:48 - INFO - Req was made | /
+11.2.2025, 15:16:16 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:16:20 - INFO - Req was made | /
+11.2.2025, 15:16:23 - INFO - Req was made | /
+11.2.2025, 15:16:24 - INFO - Req was made | /
+11.2.2025, 15:16:25 - INFO - Req was made | /
+11.2.2025, 15:16:27 - INFO - Req was made | /
+11.2.2025, 15:16:30 - INFO - Req was made | /
+11.2.2025, 15:16:31 - INFO - Req was made | /
+11.2.2025, 15:16:33 - INFO - Req was made | /
+11.2.2025, 15:18:56 - INFO - Req was made | /
+11.2.2025, 15:24:15 - INFO - Req was made | /
+11.2.2025, 15:25:00 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:26:13 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:26:42 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:26:57 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:28:33 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:32:16 - INFO - Req was made | /
+11.2.2025, 15:32:18 - INFO - Req was made | /
+11.2.2025, 15:32:19 - INFO - Req was made | /
+11.2.2025, 15:33:30 - INFO - Req was made | /
+11.2.2025, 15:33:39 - INFO - Req was made | /
+11.2.2025, 15:33:39 - INFO - Req was made | /
+11.2.2025, 15:33:44 - INFO - Req was made | /
+11.2.2025, 15:35:49 - INFO - Req was made | /
+11.2.2025, 15:35:53 - INFO - Req was made | /
+11.2.2025, 15:36:11 - INFO - Req was made | /
+11.2.2025, 15:36:21 - INFO - Req was made | /
+11.2.2025, 15:36:39 - INFO - Req was made | /
+11.2.2025, 15:37:18 - INFO - Req was made | /
+11.2.2025, 15:37:18 - INFO - Req was made | /
+11.2.2025, 15:37:26 - INFO - Req was made | /
+11.2.2025, 15:37:43 - INFO - Req was made | /
+11.2.2025, 15:37:49 - INFO - Req was made | /
+11.2.2025, 15:37:49 - INFO - Req was made | /
+11.2.2025, 15:38:14 - INFO - Req was made | /
+11.2.2025, 15:38:28 - INFO - Req was made | /
+11.2.2025, 15:38:28 - INFO - Req was made | /
+11.2.2025, 15:38:34 - INFO - Req was made | /
+11.2.2025, 15:38:42 - INFO - Req was made | /
+11.2.2025, 15:38:49 - INFO - Req was made | /
+11.2.2025, 15:38:52 - INFO - Req was made | /
+11.2.2025, 15:38:52 - INFO - Req was made | /
+11.2.2025, 15:38:52 - INFO - Req was made | /
+11.2.2025, 15:38:53 - INFO - Req was made | /
+11.2.2025, 15:40:07 - INFO - Req was made | /
+11.2.2025, 15:40:07 - INFO - Req was made | /
+11.2.2025, 15:40:16 - INFO - Req was made | /
+11.2.2025, 15:40:17 - INFO - Req was made | /
+11.2.2025, 15:40:20 - INFO - Req was made | /
+11.2.2025, 15:41:29 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:41:35 - INFO - Req was made | /
+11.2.2025, 15:41:37 - INFO - Req was made | /
+11.2.2025, 15:41:39 - INFO - Req was made | /
+11.2.2025, 15:42:06 - INFO - Req was made | /
+11.2.2025, 15:42:08 - INFO - Req was made | /
+11.2.2025, 15:43:06 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:43:09 - INFO - Req was made | /
+11.2.2025, 15:43:09 - INFO - Req was made | /
+11.2.2025, 15:43:18 - INFO - Req was made | /
+11.2.2025, 15:43:18 - INFO - Req was made | /
+11.2.2025, 15:43:22 - INFO - Req was made | /
+11.2.2025, 15:43:31 - INFO - Req was made | /
+11.2.2025, 15:43:32 - INFO - Req was made | /
+11.2.2025, 15:43:39 - INFO - Req was made | /
+11.2.2025, 15:43:39 - INFO - Req was made | /
+11.2.2025, 15:43:42 - INFO - Req was made | /
+11.2.2025, 15:44:28 - INFO - Req was made | /
+11.2.2025, 15:44:32 - INFO - Req was made | /
+11.2.2025, 15:44:33 - INFO - Req was made | /
+11.2.2025, 15:44:40 - INFO - Req was made | /
+11.2.2025, 15:44:44 - INFO - Req was made | /
+11.2.2025, 15:44:45 - INFO - Req was made | /
+11.2.2025, 15:44:54 - INFO - Req was made | /
+11.2.2025, 15:44:54 - INFO - Req was made | /
+11.2.2025, 15:44:59 - INFO - Req was made | /
+11.2.2025, 15:45:06 - INFO - Req was made | /
+11.2.2025, 15:47:23 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:47:29 - INFO - Req was made | /
+11.2.2025, 15:47:29 - ERROR - cannot find toys | ReferenceError: sortCriteria is not defined
+11.2.2025, 15:47:29 - ERROR - Failed to get toys | ReferenceError: sortCriteria is not defined
+11.2.2025, 15:47:52 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:48:32 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:48:36 - INFO - Req was made | /
+11.2.2025, 15:48:40 - INFO - Req was made | /
+11.2.2025, 15:48:42 - INFO - Req was made | /
+11.2.2025, 15:49:00 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:49:06 - INFO - Req was made | /
+11.2.2025, 15:49:06 - INFO - Req was made | /
+11.2.2025, 15:49:19 - INFO - Req was made | /
+11.2.2025, 15:50:14 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:50:19 - INFO - Req was made | /
+11.2.2025, 15:53:48 - INFO - Req was made | /
+11.2.2025, 15:53:57 - INFO - Req was made | /
+11.2.2025, 15:54:41 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:55:10 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:55:40 - INFO - Req was made | /
+11.2.2025, 15:55:40 - INFO - Req was made | /
+11.2.2025, 15:58:28 - INFO - Req was made | /
+11.2.2025, 15:58:33 - INFO - Req was made | /
+11.2.2025, 15:58:34 - INFO - Req was made | /
+11.2.2025, 15:59:39 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 15:59:44 - INFO - Req was made | /
+11.2.2025, 16:00:13 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:00:16 - INFO - Req was made | /
+11.2.2025, 16:00:25 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:00:28 - INFO - Req was made | /
+11.2.2025, 16:01:03 - INFO - Req was made | /
+11.2.2025, 16:01:03 - INFO - Req was made | /
+11.2.2025, 16:02:41 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:02:44 - INFO - Req was made | /
+11.2.2025, 16:02:58 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:04:50 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:05:10 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:05:15 - INFO - Req was made | /
+11.2.2025, 16:05:15 - ERROR - Failed to get toys | ReferenceError: toys is not defined
+11.2.2025, 16:05:15 - ERROR - cannot find toys | ReferenceError: toys is not defined
+11.2.2025, 16:06:15 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:06:18 - INFO - Req was made | /
+11.2.2025, 16:07:47 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:07:50 - INFO - Req was made | /
+11.2.2025, 16:08:13 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:08:16 - INFO - Req was made | /
+11.2.2025, 16:08:36 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:08:40 - INFO - Req was made | /
+11.2.2025, 16:08:56 - INFO - Req was made | /
+11.2.2025, 16:08:57 - INFO - Req was made | /
+11.2.2025, 16:09:03 - INFO - Req was made | /
+11.2.2025, 16:09:29 - INFO - Req was made | /
+11.2.2025, 16:09:33 - INFO - Req was made | /
+11.2.2025, 16:09:56 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:10:00 - INFO - Req was made | /
+11.2.2025, 16:10:01 - INFO - Req was made | /
+11.2.2025, 16:10:08 - INFO - Req was made | /
+11.2.2025, 16:11:49 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:11:56 - INFO - Req was made | /
+11.2.2025, 16:11:58 - INFO - Req was made | /
+11.2.2025, 16:12:07 - INFO - Req was made | /
+11.2.2025, 16:12:08 - INFO - Req was made | /
+11.2.2025, 16:12:08 - INFO - Req was made | /
+11.2.2025, 16:13:11 - INFO - Req was made | /
+11.2.2025, 16:13:28 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:13:31 - INFO - Req was made | /
+11.2.2025, 16:13:31 - INFO - Req was made | /
+11.2.2025, 16:13:45 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:13:58 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:14:02 - INFO - Req was made | /
+11.2.2025, 16:14:02 - ERROR - cannot find toys | ReferenceError: skip is not defined
+11.2.2025, 16:14:02 - ERROR - Failed to get toys | ReferenceError: skip is not defined
+11.2.2025, 16:14:03 - INFO - Req was made | /
+11.2.2025, 16:14:03 - ERROR - Failed to get toys | ReferenceError: skip is not defined
+11.2.2025, 16:14:03 - ERROR - cannot find toys | ReferenceError: skip is not defined
+11.2.2025, 16:14:19 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:14:22 - INFO - Req was made | /
+11.2.2025, 16:14:24 - INFO - Req was made | /
+11.2.2025, 16:14:24 - INFO - Req was made | /
+11.2.2025, 16:15:12 - INFO - Req was made | /
+11.2.2025, 16:15:32 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:15:34 - INFO - Req was made | /
+11.2.2025, 16:15:52 - INFO - Req was made | /
+11.2.2025, 16:15:54 - INFO - Req was made | /
+11.2.2025, 16:15:56 - INFO - Req was made | /
+11.2.2025, 16:18:29 - INFO - Req was made | /
+11.2.2025, 16:18:45 - INFO - Req was made | /
+11.2.2025, 16:19:36 - INFO - Req was made | /
+11.2.2025, 16:19:40 - INFO - Req was made | /
+11.2.2025, 16:20:36 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:20:47 - INFO - Req was made | /
+11.2.2025, 16:20:52 - INFO - Req was made | /
+11.2.2025, 16:20:59 - INFO - Req was made | /
+11.2.2025, 16:21:45 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:21:48 - INFO - Req was made | /
+11.2.2025, 16:22:25 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:22:29 - INFO - Req was made | /
+11.2.2025, 16:23:08 - INFO - Req was made | /
+11.2.2025, 16:23:29 - INFO - Req was made | /
+11.2.2025, 16:23:42 - INFO - Req was made | /
+11.2.2025, 16:23:55 - INFO - Req was made | /
+11.2.2025, 16:23:57 - INFO - Req was made | /
+11.2.2025, 16:23:57 - INFO - Req was made | /
+11.2.2025, 16:24:38 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:24:46 - INFO - Req was made | /
+11.2.2025, 16:25:02 - INFO - Req was made | /
+11.2.2025, 16:25:44 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:27:12 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:28:56 - INFO - Req was made | /
+11.2.2025, 16:30:46 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:30:54 - INFO - Req was made | /
+11.2.2025, 16:31:49 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:31:53 - INFO - Req was made | /
+11.2.2025, 16:32:17 - INFO - Req was made | /
+11.2.2025, 16:32:18 - INFO - Req was made | /
+11.2.2025, 16:32:20 - INFO - Req was made | /
+11.2.2025, 16:32:22 - INFO - Req was made | /
+11.2.2025, 16:50:45 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:52:06 - INFO - Server listening on port http://127.0.0.1:3030/
+11.2.2025, 16:58:56 - INFO - Req was made | /
+11.2.2025, 16:59:04 - INFO - Req was made | /
+11.2.2025, 16:59:05 - INFO - Req was made | /
+11.2.2025, 16:59:25 - INFO - Req was made | /
+11.2.2025, 16:59:25 - INFO - Req was made | /
+11.2.2025, 17:01:18 - INFO - Req was made | /
+11.2.2025, 17:02:06 - INFO - Req was made | /
+11.2.2025, 17:02:06 - INFO - Req was made | /
+11.2.2025, 17:02:37 - INFO - Req was made | /
+11.2.2025, 17:03:05 - INFO - Req was made | /
+11.2.2025, 17:03:05 - INFO - Req was made | /
+11.2.2025, 17:03:26 - INFO - Req was made | /
+11.2.2025, 17:05:05 - INFO - Req was made | /
+11.2.2025, 17:05:05 - INFO - Req was made | /
+11.2.2025, 17:11:22 - INFO - Req was made | /
+11.2.2025, 17:11:22 - INFO - Req was made | /

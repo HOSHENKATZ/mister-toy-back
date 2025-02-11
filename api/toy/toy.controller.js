@@ -3,10 +3,16 @@ import { loggerService } from '../../services/logger.service.js'
 
 export async function getToys(req, res) {
     try {
+       
         const filterBy = {
-            txt: req.query.txt || '',
+            toyName: req.query.toyName || '',
+            isReviews:req.query.isReviews || '',
+            minAge:req.query.minAge || '',
+            maxPrice:req.query.maxPrice || ''
         }
+        console.log(filterBy)
         const toys = await toyService.query(filterBy)
+       
         res.json(toys)
     } catch (err) {
         loggerService.error('Failed to get toys', err)

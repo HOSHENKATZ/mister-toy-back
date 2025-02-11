@@ -19,10 +19,16 @@ export const toyService = {
 
 async function query(filterBy = {}) {
 try{
-  // const criteria = _buildCriteria(filterBy)
-  const collection = await dbService.getCollection('toy')
-		var toys = await collection.find().toArray()
-		return toys
+  console.log(filterBy)
+  const  filterCriteria = _buildCriteria(filterBy)
+// console.log(filterCriteria)
+   const collection = await dbService.getCollection('toy')
+  const filteredToys = await collection
+      .find(filterCriteria)
+      .toArray()
+       const toys = filteredToys
+       console.log(toys)
+       return toys
 	} catch (err) {
 		loggerService.error('cannot find toys', err)
 		throw err
@@ -119,11 +125,21 @@ async function removeMsg(toyId, msgId) {
 function _buildCriteria(filterBy) {
   const filterCriteria = {
   }
-  // name: { $regex: filterBy.txt, $options: 'i' },
-  // maxPrice: {$lte: filterBy.maxPrice },
-  // minAge:  {$gte: filterBy.minAge }
-  const skip = filterBy.pageIdx !== undefined ? filterBy.pageIdx * PAGE_SIZE : 0
-  return { filterCriteria, skip }
+  // console.log(filterBy)
+  if (filterBy.toyName) {
+    filterCriteria.name =  { $regex: filterBy.toyName, $options: 'i' }
+}
+if (filterBy.maxPrice) {
+  filterCriteria.price= { $lte: filterBy.maxPrice }
+}
+if (filterBy.minAge) {
+  filterCriteria.minAge = { $gte: filterBy.minAge }
+}
+if (filterBy.isReviews) {
+  filterCriteria. isReviews = { $exists: true } 
+}
+  console.log(filterCriteria)
+  return  filterCriteria 
 }
 
 // function _saveToysToFile() {
